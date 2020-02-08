@@ -1,0 +1,26 @@
+type User @key(fields: "email") {
+  id: ID! @id
+  stripeId: String @unique
+  stripeCusId: String @unique
+  first_name: String!
+  last_name: String!
+  email: String! @unique
+  password: String!
+  city: String!
+  state: String!
+  gender: String
+  bio: String
+  image_url: String
+  portfolio_url: String
+  linkedin_url: String
+  github_url: String
+  personal_url: String
+  blog_url: String
+  twitter_url: String
+  activated_stripe: Boolean
+  fn_lc: String!
+  ln_lc: String!
+  city_lc: String!
+  state_lc: String!
+  chatActive: Boolean @default(value: false)
+}

@@ -1,0 +1,14 @@
+# The HTTP endpoint for your Prisma API
+#endpoint: ''
+#endpoint: ''
+endpoint: https://quality-hub-core-08e5f92e2a.herokuapp.com
+
+
+
+# Points to the file that contains your datamodel
+datamodel: datamodel.prisma
+
+# Specifies language & location for the generated Prisma client
+generate:
+  - generator: javascript-client
+    output: ../src/generated/prisma-client
