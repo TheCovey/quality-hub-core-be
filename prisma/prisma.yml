@@ -1,9 +1,7 @@
 # The HTTP endpoint for your Prisma API
 #endpoint: ''
 #endpoint: ''
-endpoint: https://quality-hub-core-08e5f92e2a.herokuapp.com
-
-
+endpoint: https://core-server-b2705ebe70.herokuapp.com
 
 # Points to the file that contains your datamodel
 datamodel: datamodel.prisma
